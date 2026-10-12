@@ -1,0 +1,46 @@
+{
+  "adjustments": [
+    {
+      "label": "Voucher SAVE5",
+      "amount": -5.0
+    },
+    {
+      "label": "Shipping fee",
+      "amount": 2.99
+    }
+  ],
+  "tax_inclusive": true,
+  "uncertain_values": [],
+  "remarks": "",
+  "doc_type": "invoice",
+  "supplier_name": "Pixel Pantry Online (fictional)",
+  "document_number": "PP-260119-0042",
+  "document_date": "2026-10-12",
+  "currency": "SGD",
+  "line_items": [
+    {
+      "description": "USB-C cable 1m (braided)",
+      "sku": "PP-CBL-1M",
+      "quantity": 2.0,
+      "unit_price": 9.9,
+      "line_total": 19.8
+    },
+    {
+      "description": "Aluminium phone stand",
+      "sku": "PP-STD-01",
+      "quantity": 1.0,
+      "unit_price": 15.9,
+      "line_total": 15.9
+    },
+    {
+      "description": "Tempered glass screen protector",
+      "sku": "PP-SCR-3",
+      "quantity": 3.0,
+      "unit_price": 7.5,
+      "line_total": 22.5
+    }
+  ],
+  "subtotal": 58.2,
+  "tax": 4.64,
+  "total": 56.19
+}

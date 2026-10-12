@@ -1,0 +1,37 @@
+{
+  "doc_type": "price_list",
+  "supplier_name": "Green Test Goods (fictional)",
+  "document_number": "PL-OCT26",
+  "document_date": "2026-10-01",
+  "currency": "SGD",
+  "line_items": [
+    {
+      "description": "Bamboo toothbrush (soft)",
+      "sku": "BT-001",
+      "quantity": null,
+      "unit_price": 2.8,
+      "line_total": null
+    },
+    {
+      "description": "Refill shampoo bar 100g",
+      "sku": "SB-100",
+      "quantity": null,
+      "unit_price": 9.5,
+      "line_total": null
+    },
+    {
+      "description": "Beeswax food wrap (set of 3)",
+      "sku": "BW-003",
+      "quantity": null,
+      "unit_price": 14.9,
+      "line_total": null
+    }
+  ],
+  "subtotal": null,
+  "adjustments": [],
+  "tax": null,
+  "tax_inclusive": false,
+  "total": null,
+  "uncertain_values": [],
+  "remarks": ""
+}

@@ -1,0 +1,37 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "Example Beans Trading (fictional)",
+  "document_number": "INV-1042",
+  "document_date": "2026-10-03",
+  "currency": "SGD",
+  "line_items": [
+    {
+      "description": "Arabica coffee beans 1kg",
+      "sku": null,
+      "quantity": 10,
+      "unit_price": 28.5,
+      "line_total": 285
+    },
+    {
+      "description": "Paper cups 12oz (pack of 50)",
+      "sku": null,
+      "quantity": 20,
+      "unit_price": 6.2,
+      "line_total": 124
+    },
+    {
+      "description": "Oat milk 1L",
+      "sku": null,
+      "quantity": 24,
+      "unit_price": 3.9,
+      "line_total": 93.6
+    }
+  ],
+  "subtotal": 502.6,
+  "adjustments": [],
+  "tax": 45.23,
+  "tax_inclusive": false,
+  "total": 547.83,
+  "uncertain_values": [],
+  "remarks": ""
+}

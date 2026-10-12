@@ -1,0 +1,25 @@
+{
+  "name": "doc-extractor",
+  "version": "1.0.0",
+  "description": "AI document extraction: supplier invoices and price lists (PDF/images) to a clean, checked spreadsheet using Claude.",
+  "type": "module",
+  "scripts": {
+    "extract": "node src/run.js",
+    "demo": "node src/run.js --mock --in samples --out output",
+    "samples": "node samples/make-samples.js",
+    "test": "node --test",
+    "score": "node src/score.js",
+    "stress-demo": "node src/run.js --mock --in stress-test --out stress-demo-output && node src/score.js --out stress-demo-output --key stress-test"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0",
+    "dotenv": "^16.4.5",
+    "exceljs": "^4.4.0"
+  },
+  "devDependencies": {
+    "pdfkit": "^0.15.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

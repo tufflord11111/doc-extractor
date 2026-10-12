@@ -1,0 +1,31 @@
+{
+  "doc_type": "invoice",
+  "supplier_name": "Demo Homeware Supply (fictional)",
+  "document_number": "DH-2209",
+  "document_date": "2026-10-05",
+  "currency": "SGD",
+  "line_items": [
+    {
+      "description": "Stainless steel tumbler 500ml",
+      "sku": null,
+      "quantity": 12,
+      "unit_price": 4.5,
+      "line_total": 45
+    },
+    {
+      "description": "Gift box (small)",
+      "sku": null,
+      "quantity": 30,
+      "unit_price": 1.2,
+      "line_total": 36
+    }
+  ],
+  "subtotal": 81,
+  "adjustments": [],
+  "tax": 7.29,
+  "tax_inclusive": false,
+  "total": 88.29,
+  "uncertain_values": [],
+  "remarks": "",
+  "_expect_status": "REVIEW"
+}

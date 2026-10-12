@@ -1,0 +1,38 @@
+{
+  "adjustments": [],
+  "tax_inclusive": false,
+  "uncertain_values": [],
+  "remarks": "",
+  "doc_type": "invoice",
+  "supplier_name": "Harbour Print Studio (fictional)",
+  "document_number": "HPS-0918",
+  "document_date": "2026-10-09",
+  "currency": "SGD",
+  "line_items": [
+    {
+      "description": "Name cards, 500 pcs, matte",
+      "sku": null,
+      "quantity": 2.0,
+      "unit_price": 45.0,
+      "line_total": 90.0
+    },
+    {
+      "description": "A5 flyers, 1000 pcs, gloss",
+      "sku": null,
+      "quantity": 1.0,
+      "unit_price": 120.0,
+      "line_total": 120.0
+    },
+    {
+      "description": "Artwork adjustment fee",
+      "sku": null,
+      "quantity": 1.0,
+      "unit_price": 30.0,
+      "line_total": 30.0
+    }
+  ],
+  "subtotal": 240.0,
+  "tax": 21.6,
+  "total": 271.6,
+  "_expect_status": "REVIEW"
+}

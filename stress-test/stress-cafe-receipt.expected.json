@@ -1,0 +1,42 @@
+{
+  "adjustments": [
+    {
+      "label": "Svc Chg 10%",
+      "amount": 3.66
+    }
+  ],
+  "tax_inclusive": false,
+  "uncertain_values": [],
+  "remarks": "",
+  "doc_type": "receipt",
+  "supplier_name": "Kopi Lane Cafe (fictional)",
+  "document_number": "R0451-2291",
+  "document_date": "2026-10-11",
+  "currency": "SGD",
+  "line_items": [
+    {
+      "description": "Iced Latte",
+      "sku": null,
+      "quantity": 2.0,
+      "unit_price": 6.5,
+      "line_total": 13.0
+    },
+    {
+      "description": "Kaya Toast Set",
+      "sku": null,
+      "quantity": 1.0,
+      "unit_price": 5.8,
+      "line_total": 5.8
+    },
+    {
+      "description": "Nasi Lemak",
+      "sku": null,
+      "quantity": 2.0,
+      "unit_price": 8.9,
+      "line_total": 17.8
+    }
+  ],
+  "subtotal": 36.6,
+  "tax": 3.62,
+  "total": 43.88
+}

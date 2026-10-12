@@ -1,0 +1,217 @@
+{
+  "adjustments": [
+    {
+      "label": "Freight (est.)",
+      "amount": 145.0
+    }
+  ],
+  "tax_inclusive": false,
+  "uncertain_values": [],
+  "remarks": "",
+  "doc_type": "quotation",
+  "supplier_name": "Ridgeline Packaging Co. (fictional)",
+  "document_number": "Q-77310",
+  "document_date": "2026-10-25",
+  "currency": "USD",
+  "line_items": [
+    {
+      "description": "Corrugated box 6x6x6 in, single wall",
+      "sku": "RB-666",
+      "quantity": 1000.0,
+      "unit_price": 0.58,
+      "line_total": 580.0
+    },
+    {
+      "description": "Packing tape 48mm x 100m, clear",
+      "sku": "RT-001",
+      "quantity": 144.0,
+      "unit_price": 1.95,
+      "line_total": 280.8
+    },
+    {
+      "description": "Poly mailer 10x13 in, white",
+      "sku": "RM-002",
+      "quantity": 1000.0,
+      "unit_price": 0.17,
+      "line_total": 170.0
+    },
+    {
+      "description": "Corrugated box 8x8x8 in, single wall",
+      "sku": "RB-888",
+      "quantity": 250.0,
+      "unit_price": 1.14,
+      "line_total": 285.0
+    },
+    {
+      "description": "Packing tape 48mm x 50m, clear",
+      "sku": "RT-004",
+      "quantity": 36.0,
+      "unit_price": 1.95,
+      "line_total": 70.2
+    },
+    {
+      "description": "Poly mailer 12x15.5 in, grey",
+      "sku": "RM-005",
+      "quantity": 500.0,
+      "unit_price": 0.09,
+      "line_total": 45.0
+    },
+    {
+      "description": "Corrugated box 10x8x6 in, single wall",
+      "sku": "RB-1086",
+      "quantity": 250.0,
+      "unit_price": 1.14,
+      "line_total": 285.0
+    },
+    {
+      "description": "Packing tape 48mm x 100m, clear",
+      "sku": "RT-007",
+      "quantity": 36.0,
+      "unit_price": 3.15,
+      "line_total": 113.4
+    },
+    {
+      "description": "Poly mailer 10x13 in, white",
+      "sku": "RM-008",
+      "quantity": 2000.0,
+      "unit_price": 0.17,
+      "line_total": 340.0
+    },
+    {
+      "description": "Corrugated box 12x10x8 in, single wall",
+      "sku": "RB-12108",
+      "quantity": 2500.0,
+      "unit_price": 0.42,
+      "line_total": 1050.0
+    },
+    {
+      "description": "Packing tape 48mm x 100m, clear",
+      "sku": "RT-010",
+      "quantity": 36.0,
+      "unit_price": 1.95,
+      "line_total": 70.2
+    },
+    {
+      "description": "Poly mailer 10x13 in, white",
+      "sku": "RM-011",
+      "quantity": 1000.0,
+      "unit_price": 0.12,
+      "line_total": 120.0
+    },
+    {
+      "description": "Corrugated box 12x12x12 in, single wall",
+      "sku": "RB-121212",
+      "quantity": 500.0,
+      "unit_price": 1.14,
+      "line_total": 570.0
+    },
+    {
+      "description": "Packing tape 48mm x 50m, clear",
+      "sku": "RT-013",
+      "quantity": 144.0,
+      "unit_price": 2.4,
+      "line_total": 345.6
+    },
+    {
+      "description": "Poly mailer 14.5x19 in, white",
+      "sku": "RM-014",
+      "quantity": 500.0,
+      "unit_price": 0.17,
+      "line_total": 85.0
+    },
+    {
+      "description": "Corrugated box 14x10x6 in, single wall",
+      "sku": "RB-14106",
+      "quantity": 2500.0,
+      "unit_price": 1.36,
+      "line_total": 3400.0
+    },
+    {
+      "description": "Packing tape 48mm x 50m, clear",
+      "sku": "RT-016",
+      "quantity": 72.0,
+      "unit_price": 1.95,
+      "line_total": 140.4
+    },
+    {
+      "description": "Poly mailer 14.5x19 in, white",
+      "sku": "RM-017",
+      "quantity": 2000.0,
+      "unit_price": 0.09,
+      "line_total": 180.0
+    },
+    {
+      "description": "Corrugated box 16x12x10 in, single wall",
+      "sku": "RB-161210",
+      "quantity": 2500.0,
+      "unit_price": 0.58,
+      "line_total": 1450.0
+    },
+    {
+      "description": "Packing tape 48mm x 100m, clear",
+      "sku": "RT-019",
+      "quantity": 144.0,
+      "unit_price": 3.15,
+      "line_total": 453.6
+    },
+    {
+      "description": "Poly mailer 12x15.5 in, grey",
+      "sku": "RM-020",
+      "quantity": 1000.0,
+      "unit_price": 0.17,
+      "line_total": 170.0
+    },
+    {
+      "description": "Corrugated box 18x12x12 in, single wall",
+      "sku": "RB-181212",
+      "quantity": 1200.0,
+      "unit_price": 0.71,
+      "line_total": 852.0
+    },
+    {
+      "description": "Packing tape 48mm x 100m, clear",
+      "sku": "RT-022",
+      "quantity": 36.0,
+      "unit_price": 1.95,
+      "line_total": 70.2
+    },
+    {
+      "description": "Poly mailer 14.5x19 in, white",
+      "sku": "RM-023",
+      "quantity": 500.0,
+      "unit_price": 0.17,
+      "line_total": 85.0
+    },
+    {
+      "description": "Corrugated box 20x14x10 in, single wall",
+      "sku": "RB-201410",
+      "quantity": 1000.0,
+      "unit_price": 1.14,
+      "line_total": 1140.0
+    },
+    {
+      "description": "Packing tape 48mm x 100m, clear",
+      "sku": "RT-025",
+      "quantity": 72.0,
+      "unit_price": 3.15,
+      "line_total": 226.8
+    },
+    {
+      "description": "Poly mailer 12x15.5 in, grey",
+      "sku": "RM-026",
+      "quantity": 2000.0,
+      "unit_price": 0.09,
+      "line_total": 180.0
+    },
+    {
+      "description": "Corrugated box 24x18x12 in, single wall",
+      "sku": "RB-241812",
+      "quantity": 250.0,
+      "unit_price": 1.14,
+      "line_total": 285.0
+    }
+  ],
+  "subtotal": 13043.2,
+  "tax": null,
+  "total": 13188.2
+}
