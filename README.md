@@ -7,6 +7,20 @@ every line is re-calculated (qty x unit price = line total, lines add up to the 
 dates and required fields are validated, and only values the model genuinely could not read go to a **Review queue** (general notes go to a separate Remarks column, so reviewers aren't flooded).
 Each document comes out as `OK` or `REVIEW`, with the exact reason.
 
+## Results
+
+Stress test with `claude-sonnet-5-5` on the 5 fictional documents in `stress-test/` (Oct 2026):
+
+| Metric | Result |
+|---|---|
+| Field accuracy (every header field and line-item value vs the answer key) | **259 / 259 (100%)** |
+| Documents correctly sorted into OK / REVIEW | **5 / 5** |
+| Silent errors (wrong values in documents marked OK) | **0** |
+| API cost | about US$0.01 per document |
+
+The stained scan was the hardest case. The model left the hidden unit price blank and flagged it ("line total 12.60 with qty 6 would imply 2.10, but this is not printed") instead of filling in a guess.
+Five documents is a small test set. Run the same scorer on a sample of your own documents before trusting it at volume.
+
 ## Quick start (Windows PowerShell)
 
 ```powershell
